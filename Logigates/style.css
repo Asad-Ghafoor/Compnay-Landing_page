@@ -1,0 +1,531 @@
+#ulAfter {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+#ulAfter::after {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 534px;
+    transform: translateX(-50%);
+    width: 59%;
+    height: 3px;
+    background: #89dafa;
+}
+
+#li-pre {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    border: 2px solid #89dafa;
+    height: 31px;
+    align-items: center;
+    border-radius: 9px;
+    color: #89dafa;
+}
+
+#LowerNav {
+    margin-top: 14px;
+}
+
+#LowerNav li {
+    margin-left: 14px;
+}
+
+.container {
+    border-radius: 10px;
+
+}
+
+.navbar {
+    border-radius: 10px;
+}
+
+#LowerNav button:hover {
+    background: #89dafa;
+    color: white;
+    cursor: pointer;
+}
+
+#container {
+    box-shadow: 0 8px 8px -4px lightblue;
+    border-radius: 10px;
+}
+
+.asset-management {
+    background: #edf4fc;
+    border-radius: 10px;
+}
+
+.asset-management .heading {
+    color: #068FF1;
+    margin-top: -34px;
+}
+
+.asset-management .title {
+    font-size: 36px;
+}
+
+.asset-management-box .card {
+    background: #948dff;
+    border-radius: 100px;
+    box-shadow: 0 8px 8px -4px #948dff;
+}
+
+.asset-management-box .card2 {
+    background: #5ac9c3;
+    border-radius: 100px;
+    box-shadow: 0 8px 8px -4px #5ac9c3;
+}
+
+.asset-management-box .card3 {
+    background: #7049f0;
+    border-radius: 100px;
+    box-shadow: 0 8px 8px -4px #7049f0;
+}
+
+.asset-management-box .card4 {
+    background: #1797e6;
+    border-radius: 100px;
+    box-shadow: 0 8px 8px -4px #1797e6;
+}
+
+.asset-management-box .card5 {
+    background: #dd3e9e;
+    border-radius: 100px;
+    box-shadow: 0 8px 8px -4px #dd3e9e;
+}
+
+.card-div {
+    background: #edf4fc;
+    border-radius: 10px;
+}
+
+.integration .paragraph p {
+    line-height: 2.5rem;
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+.integration .paragraph2 {
+    line-height: 2.5rem;
+    font-size: 24px;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.card-slider {
+    background: #edf4fc;
+    border-radius: 10px;
+}
+
+.integration .heading h5 {
+    font-size: 24px;
+}
+
+.industries img {
+    background: #b6d6fc;
+    border-radius: 10px;
+}
+
+.industries .card {
+    background: #ffffff;
+    box-shadow: 0 27px 50px #b6d6fc;
+    border-radius: 10px;
+}
+
+.industries .heading {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Pricing-Plan h6 {
+    line-height: 2.5rem;
+    font-size: 24px;
+}
+
+.Pricing-Plan .paragraph {
+    line-height: 2.5rem;
+    font-size: 21px;
+}
+
+.Pricing-Plan .button-container {
+    background-color: blue;
+    display: inline-block;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.Pricing-Plan .button-container .yearly {
+    border: none;
+    border-radius: 30px;
+    padding: 8px 25px;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+    height: 51px;
+    width: 137px;
+    margin-left: 15px;
+}
+
+.Pricing-Plan .button-container .monthly {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    height: 51px;
+    width: 137px;
+    border: none;
+}
+
+.Pricing-Plan .progress-paragraph {
+    line-height: 2.8rem;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.Pricing-Plan .progress-paragraph u {
+    font-size: 28px;
+    color: #489cfe;
+}
+
+.bar {
+    background: #dfecfc;
+    border-radius: 10px;
+}
+
+.Pricing-Plan .counting {
+    margin-top: 54px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Pricing-Plan .counter-paragraph {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.progress {
+    height: 26px;
+    background: #d4d7e6;
+    border-radius: 30px;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+    background: #c3defc;
+}
+
+.progress .progress-bar {
+    border-radius: 30px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+    background: #44bafd;
+}
+
+.progress .progress-bar:before {
+    content: "";
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.progress .progress-bar:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    border-radius: 65%;
+    background: white;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+    top: -1px;
+    z-index: 1;
+}
+
+.three-cards .title {
+    margin-left: -50px;
+    font-size: 21px;
+}
+
+.three-cards .explain p {
+    line-height: 3.8;
+    font-size: 15px;
+}
+
+.three-cards .amount h4 {
+    margin-left: 14px;
+    font-size: 30px;
+}
+
+.three-cards .amount span {
+    font-size: 48px;
+}
+
+.three-cards .free {
+    background: black;
+    color: white;
+    border-radius: 30px;
+    height: 41px;
+    width: 137px;
+}
+
+.three-cards .payment {
+    margin-left: 14px;
+}
+
+.three-cards .ul {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 46%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 2px;
+    background-color: #cbced3;
+}
+
+.three-cards .feature {
+    margin-left: 12px;
+}
+
+.three-cards .checkmark {
+    font-size: 21px;
+    color: blue;
+    font-weight: bold;
+}
+
+.three-cards .Choose button {
+    border-radius: 30px;
+    height: 40px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 15px;
+    background: #489cff;
+    color: white;
+    border: none;
+}
+
+.three-cards .card {
+    background-color: #ecf3fd;
+    border-radius: 10px;
+}
+
+/* Card hover effect */
+.three-cards .card:hover {
+    background-color: #489cff;
+}
+
+/* Title hover effect */
+.three-cards .card:hover .title {
+    color: white;
+}
+
+/* Explain paragraph hover effect */
+.three-cards .card:hover .explain p {
+    color: white;
+}
+
+/* Amount h4 hover effect */
+.three-cards .card:hover .amount h4 {
+    color: white;
+}
+
+/* Amount span hover effect */
+.three-cards .card:hover .amount span {
+    color: white;
+}
+
+/* Payment class hover effect */
+.three-cards .card:hover .payment {
+    color: white;
+}
+
+/* UL class hover effect */
+.three-cards .card:hover .ul {
+    background-color: white;
+}
+
+/* Feature class hover effect */
+.three-cards .card:hover .feature {
+    color: white;
+}
+
+/* Checkmark class hover effect */
+.three-cards .card:hover .checkmark {
+    color: blue;
+}
+
+/* Choose button hover effect */
+.three-cards .card:hover .Choose button {
+    background: white;
+    color: blue;
+}
+
+.question {
+    background-color: #f0f7ff;
+    border-radius: 10px;
+}
+
+.question p {
+    margin-left: -203;
+    font-size: 20px;
+}
+
+.question .offertraining {
+    margin-left: -84px;
+    font-size: 20px;
+}
+
+.contact-us form input[type=text],
+[type=email],
+[type=number],
+#exampleFormControlSelect1 {
+    height: 45px;
+    border-radius: 30px;
+}
+
+.contact-us button {
+    height: 50px;
+    width: 136px;
+    border-radius: 30px;
+    background-color: #489cff;
+    color: white;
+    border: none;
+}
+
+.footer .footer-icon .icon {
+    height: 28px;
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(27.333%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-27.333%);
+
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+
+
+
+
+/* Media Query */
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 576px) {
+    .home .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home h3:first-child {
+        margin-left: 0;
+    }
+
+    .home p {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .home button {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .home img {
+        position: relative;
+    }
+}
+
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .home .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home h3:first-child {
+        margin-left: 0;
+    }
+
+    .home p {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .home button {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .home img {
+        margin-left: 0;
+        margin-top: 30px;
+        position: static;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Medium devices (laptops, desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* CSS styles for medium devices */
+}
+
+/* Large devices (large laptops, desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* CSS styles for large devices */
+}
+
+/* Extra large devices (large desktops, TVs) */
+@media only screen and (min-width: 1201px) {
+    /* CSS styles for extra large devices */
+}
